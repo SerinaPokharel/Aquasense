@@ -2,10 +2,7 @@ package main
 
 import (
 	"aquasense/config"
-	"aquasense/controllers"
-	"aquasense/middleware"
 	"aquasense/utils"
-	"github.com/gorilla/mux"
 	"log"
 	"net/http"
 )
@@ -18,19 +15,20 @@ func main() {
 	}
 	defer db.Close()
 
-	sensorController := controllers.SensorController{DB: db}
+	/*sensorController := controllers.SensorController{DB: db}
 
 	r := mux.NewRouter()
 
-	// Middleware for JWT Authentication
-	authMiddleware := middleware.AuthenticationMiddleware(r, cfg)
-
-	// Define API Endpoints with the authMiddleware
+	/* Define API Endpoints
 	r.HandleFunc("/api/sensor-data", sensorController.CreateSensorData).Methods("POST")
 	r.HandleFunc("/api/signup", sensorController.SignUp).Methods("POST")
 	r.HandleFunc("/api/login", sensorController.Login).Methods("POST")
 
-	http.Handle("/", r)
+	// Apply Middleware for JWT Authentication to specific routes
+	authMiddleware := middleware.AuthenticationMiddleware(cfg)
+	r.Use(authMiddleware).Methods("POST")
+
+	http.Handle("/", r)*/
 
 	log.Println("Server started on :8080")
 	if err := http.ListenAndServe(":8080", nil); err != nil {
