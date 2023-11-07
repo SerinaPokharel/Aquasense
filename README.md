@@ -22,7 +22,7 @@
 
 ## About The Project
 
-![Screen Shot](images/screenshot.png)
+![Screen Shot](https://github.com/Aryanstha/Aquasense/blob/main/example.png?raw=true)
 
 AquaSense💧 is an innovative IoT project designed to monitor water quality and provide a meter billing system for water supply. This system combines the power of IoT technology, data analytics, and smart billing to ensure the efficient management and distribution of clean water.
 
