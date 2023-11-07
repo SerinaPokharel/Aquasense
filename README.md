@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/Aryanstha/Aquasense">
-    <img src="https://github.com/Aryanstha/Aquasense/blob/main/logo.png?raw=true" alt="Logo" width="100" height="100">
+    <img src="https://github.com/Aryanstha/Aquasense/blob/main/logo.png?raw=true" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">AquaSense💧</h3>
