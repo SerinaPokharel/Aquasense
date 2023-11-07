@@ -20,17 +20,6 @@
 
 ![Contributors](https://img.shields.io/github/contributors/Aryanstha/Aquasense?color=dark-green) ![Forks](https://img.shields.io/github/forks/Aryanstha/Aquasense?style=social) ![Stargazers](https://img.shields.io/github/stars/Aryanstha/Aquasense?style=social) ![Issues](https://img.shields.io/github/issues/Aryanstha/Aquasense) ![License](https://img.shields.io/github/license/Aryanstha/Aquasense)
 
-## Table Of Contents
-
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-    * [Prerequisites](#prerequisites)
-    * [Installation](#installation)
-* [License](#license)
-* [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
-
 ## About The Project
 
 ![Screen Shot](images/screenshot.png)
