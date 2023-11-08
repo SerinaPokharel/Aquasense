@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/Aryanstha/Aquasense">
-    <img src="https://github.com/Aryanstha/Aquasense/blob/main/logo.png?raw=true" alt="Logo" width="200" height="200">
+    <img src="https://github.com/Aryanstha/Aquasense/blob/main/logo.png?raw=true" alt="Logo" width="150" height="150">
   </a>
 
 <h3 align="center">AquaSense💧</h3>
@@ -22,7 +22,7 @@
 
 ## About The Project
 
-![Screen Shot](https://github.com/Aryanstha/Aquasense/blob/main/example.png?raw=true)
+![Screen Shot](https://github.com/Aryanstha/Aquasense/blob/main/ss.png?raw=true)
 
 AquaSense💧 is an innovative IoT project designed to monitor water quality and provide a meter billing system for water supply. This system combines the power of IoT technology, data analytics, and smart billing to ensure the efficient management and distribution of clean water.
 
