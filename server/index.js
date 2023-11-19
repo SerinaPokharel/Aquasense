@@ -52,6 +52,10 @@ app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
+app.get("/", (req, res) => {
+  res.send("Aquasense server is running✅!");
+});
+
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 3001;
 mongoose
