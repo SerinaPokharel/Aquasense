@@ -5,135 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf128e7a-8c1a-458c-97e5-f7cb7faa5238" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/avatars/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/avatars/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/avatars/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/avatars/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/backgrounds/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/elements/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/elements/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/elements/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/elements/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/elements/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/elements/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/elements/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/elements/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/elements/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/elements/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/elements/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/elements/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/elements/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/brands/asana.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/brands/behance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/brands/dribbble.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/brands/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/brands/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/brands/google.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/brands/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/brands/mailchimp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/brands/slack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/brands/twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/unicons/cc-primary.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/unicons/cc-success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/unicons/cc-warning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/unicons/chart-success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/unicons/chart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/unicons/paypal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/unicons/wallet-info.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/icons/unicons/wallet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/illustrations/girl-doing-yoga-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/illustrations/man-with-laptop-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/illustrations/page-misc-error-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/layouts/layout-container-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/layouts/layout-fluid-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/layouts/layout-without-menu-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/img/layouts/layout-without-navbar-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/js/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/js/dashboards-analytics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/js/extended-ui-perfect-scrollbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/js/form-basic-inputs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/js/pages-account-settings-account.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/js/ui-modals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/js/ui-popover.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/js/ui-toasts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/ss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/css/core.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/css/pages/page-account-settings.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/css/pages/page-auth.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/css/pages/page-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/css/pages/page-misc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/css/theme-default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/fonts/boxicons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/fonts/boxicons/boxicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/fonts/boxicons/boxicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/fonts/boxicons/boxicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/fonts/boxicons/boxicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/fonts/boxicons/boxicons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/js/helpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/js/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/libs/apex-charts/apex-charts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/libs/apex-charts/apexcharts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/libs/highlight/highlight-github.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/libs/highlight/highlight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/libs/highlight/highlight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/libs/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/libs/masonry/masonry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/assets/vendor/libs/popper/popper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/css/core.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/css/pages/page-account-settings.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/css/pages/page-auth.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/css/pages/page-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/css/pages/page-misc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/css/theme-default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/fonts/boxicons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/fonts/boxicons/boxicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/fonts/boxicons/boxicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/fonts/boxicons/boxicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/fonts/boxicons/boxicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/fonts/boxicons/boxicons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/js/helpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/js/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/libs/apex-charts/apex-charts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/libs/apex-charts/apexcharts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/libs/highlight/highlight-github.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/libs/highlight/highlight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/libs/highlight/highlight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/libs/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/libs/masonry/masonry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/libs/perfect-scrollbar/perfect-scrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/libs/perfect-scrollbar/perfect-scrollbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/dist/libs/popper/popper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/fonts/boxicons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/js/helpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/js/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/libs/apex-charts/apex-charts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/libs/apex-charts/apexcharts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/libs/highlight/highlight-github.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/libs/highlight/highlight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/libs/highlight/highlight.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/libs/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/libs/masonry/masonry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/libs/perfect-scrollbar/perfect-scrollbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/libs/perfect-scrollbar/perfect-scrollbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/libs/popper/popper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/public/auth-login-basic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/public/auth-register-basic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +55,7 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Orphic/sd",
+    "last_opened_file_path": "E:/Orphic/AquaSense",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -336,6 +209,7 @@
       <workItem from="1699458415804" duration="3128000" />
       <workItem from="1699943727377" duration="5244000" />
       <workItem from="1700153138772" duration="493000" />
+      <workItem from="1700574728328" duration="1706000" />
     </task>
     <servers />
   </component>

@@ -97,8 +97,8 @@ AquaSense is a project with the mission to improve water quality monitoring and 
 
 To get started with AquaSense, follow these steps:
 1. <b>Prerequisites:</b> Ensure you have the required hardware for water quality monitoring and IoT sensors.
-2. <b>Installation:</b>Set up the IoT devices and sensors in your water supply network. Configure the database connection in the `config` package.
-3. <b>Build and Run:</b>Build the AquaSense project and start the web application using `go run main.go`.
+2. <b>Installation:</b>Set up the IoT devices and sensors in your water supply network. Configure the database connection in the `.env` package.
+3. <b>Build and Run:</b>Build the AquaSense project and start the web application using `node index.js`.
 4. <b>User Registration:</b> Users can register for AquaSense accounts to access their water usage and billing information.
 5. <b>Monitor Water Quality:</b> Access real-time water quality data and historical information through the web interface.
 6. <b>Billing System:</b> AquaSense's smart billing system ensures accurate billing based on sensor data and payment gateway integration.
