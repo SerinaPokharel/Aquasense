@@ -1,15 +1,6 @@
 import mongoose from 'mongoose';
 
-const SensorSchema = new mongoose.Schema({
-    meterId: {
-        type: String,
-        required: true,
-        unique: true,
-    },
-    monthlyBill: {
-        type: Number,
-        default: 0,
-    },
+const SensorSchema = new mongoose.Schema({ 
     pHValue: {
         type: Number,
         required: true,
@@ -20,6 +11,10 @@ const SensorSchema = new mongoose.Schema({
         required: true,
     },
     temperature: {
+        type: Number,
+        required: true,
+    },
+    waterConsumption: {
         type: Number,
         required: true,
     },

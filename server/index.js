@@ -17,6 +17,11 @@ import { verifyToken } from "./middleware/auth.js";
 import User from "./models/User.js";
 import Post from "./models/Post.js";
 import { users, posts } from "./data/index.js";
+import sensorRoutes from "./models/Sensor.js";
+import { postSensorData } from "./controllers/sensors.js";
+import dataRoutes from './routes/data.js';
+
+
 
 /* CONFIGURATIONS */
 const __filename = fileURLToPath(import.meta.url);
@@ -46,11 +51,17 @@ const upload = multer({ storage });
 /* ROUTES WITH FILES */
 app.post("/auth/register", upload.single("picture"), register);
 app.post("/posts", verifyToken, upload.single("picture"), createPost);
+app.post("/sensor", postSensorData);
+
 
 /* ROUTES */
 app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
+app.use("/sensor", sensorRoutes);
+app.use("/api", dataRoutes);
+
+
 
 app.get("/", (req, res) => {
   res.send("Aquasense server is running✅!");
