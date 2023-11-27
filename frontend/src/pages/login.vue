@@ -18,23 +18,16 @@ const isPasswordVisible = ref(false);
 
 const login = async () => {
   try {
-    const response = await fetch('https://aquasense-3z3p.onrender.com/auth/login', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        email: form.email,
-        password: form.password,
-      }),
+    axios.defaults.baseURL = 'https://your-api-url.com';
+
+    axios.defaults.withCredentials = true;
+    console.log(form.value)
+      const response = await axios.post('https://aquasense-3z3p.onrender.com/auth/login', {
+      email: form.email,
+      password: form.password,
     });
-
-    if (!response.ok) {
-      // Handle non-2xx response (error)
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-
-    const responseData = await response.json();
+    
+    const responseData = response.data;
     const { user, token } = responseData;
 
     // Use the store instance to commit mutations
