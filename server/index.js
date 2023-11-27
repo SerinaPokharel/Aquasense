@@ -31,8 +31,12 @@ const app = express();
 app.use(express.json());
 // app.use(helmet());
 // app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
+const allowedOrigins = ['http://localhost:5174', 'https://aquasense.vercel.app/'];
 
-app.use(cors({ origin: '*' }));
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true,
+}));
 
 app.use(morgan("common"));
 app.use(bodyParser.json());
