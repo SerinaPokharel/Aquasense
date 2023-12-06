@@ -3,15 +3,18 @@ import AuthProvider from '@/views/pages/authentication/AuthProvider.vue'
 import logo from '@images/logo.svg?raw'
 import axios from 'axios';
 import { ref } from 'vue';
-import { useStore } from 'vuex';
+import {AuthStore} from '@/store/authStore';
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
-const store = useStore();
+
+const auth_store = AuthStore();
+
 
 const form = ref({
   email: '',
   password: '',
+  remember: false,
 });
 
 const isPasswordVisible = ref(false);
@@ -27,13 +30,7 @@ const login = async () => {
     
     const responseData = response.data;
     console.log(responseData)
-    const { user, token } = responseData;
-
-    // Use the store instance to commit mutations
-    store.commit('setUser', user);
-    store.commit('setToken', token);
-
-    // Redirect to the dashboard or another route
+    auth_store.setAuth(responseData.token);
     router.push('/dashboard');
   } catch (error) {
     // Handle login error

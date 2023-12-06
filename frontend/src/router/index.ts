@@ -1,26 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import store from '@/store';
+import {AuthStore} from '@/store/authStore';
 
-const isAuthenticated = () => {
-  const token = store.state.token;
-  if (!token) {
-    const decodedToken = parseJwt(token);
 
-    if (decodedToken && decodedToken.exp * 1000 > Date.now()) {
-      return true;
-    }
-  }
 
-  return false;
-};
-
-const parseJwt = (token: string) => {
-  try {
-    return JSON.parse(atob(token.split('.')[1]));
-  } catch (e) {
-    return null;
-  }
-};
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -33,7 +15,7 @@ const router = createRouter({
         {
           path: 'dashboard',
           component: () => import('../pages/dashboard.vue'),
-          //meta: { requiresAuth: true },
+          meta: { requiresAuth: true },
         },
         {
           path: 'account-settings',
@@ -64,8 +46,9 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  if (to.matched.some((record) => record.meta.requiresAuth)) {
-    isAuthenticated() ? next() : next('/login');
+  const auth_store = AuthStore();
+  if (to.meta.requiresAuth && !auth_store.IsAuth()) {
+    next("/login")
   } else {
     next();
   }
