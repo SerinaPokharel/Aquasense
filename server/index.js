@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
-import cors from "cors";
+// import cors from "cors";
 import dotenv from "dotenv";
 import multer from "multer";
 // import helmet from "helmet";
@@ -33,10 +33,14 @@ app.use(express.json());
 // app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 const allowedOrigins = ['http://localhost:5174', 'https://aquasense.vercel.app/'];
 
-app.use(cors({
-  origin: allowedOrigins,
-  credentials: true,
-}));
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', '*');
+  res.header('Access-Control-Allow-Credentials', true);
+  res.header('Access-Control-Max-Age', '3600');
+  next();
+});
 
 app.use(morgan("common"));
 app.use(bodyParser.json());
