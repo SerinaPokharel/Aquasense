@@ -30,8 +30,14 @@ const login = async () => {
     
     const responseData = response.data;
     console.log(responseData)
-    auth_store.setAuth(responseData.token);
-    router.push('/dashboard');
+    if (responseData.success) {
+      auth_store.setAuth(responseData.token);
+      router.push('/dashboard');
+    } else {
+      // popup rong credentials
+      console.log('wrong credentials')
+
+    }
   } catch (error) {
     // Handle login error
     console.error('API Error:', error);
