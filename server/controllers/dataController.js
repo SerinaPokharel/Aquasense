@@ -1,3 +1,4 @@
+// Import necessary modules
 import Data from "../models/Data.js";
 
 export const sendData = async (req, res) => {
@@ -22,5 +23,15 @@ export const sendData = async (req, res) => {
     } catch (err) {
         console.error('Error updating/inserting data:', err);
         res.status(500).json({ error: 'Internal Server Error', message: err.message });
+    }
+};
+
+export const getData = async (req, res) => {
+    try {
+        const data = await Data.find();
+        res.status(200).json(data);
+    } catch (err) {
+        console.error('Error fetching data:', err);
+        res.status(404).json({ error: 'Not Found', message: err.message });
     }
 };
