@@ -30,7 +30,7 @@ const login = async () => {
     
     const responseData = response.data;
     console.log(responseData)
-    if (responseData.success) {
+    if (response.status == 200) {
       auth_store.setAuth(responseData.token);
       router.push('/dashboard');
     } else {
